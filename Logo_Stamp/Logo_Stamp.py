@@ -31,3 +31,4 @@ def add_logo(input, logo_path, output, corner ='bottom-right', padding = 15):
             img.convert("RGB").save(output_path)
 
 # call the function
+add_logo('auto_logo/photo_folder', 'auto_logo/logo.png', 'auto_logo/watermarked_photos')
